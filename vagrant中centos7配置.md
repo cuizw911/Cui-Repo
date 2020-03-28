@@ -93,7 +93,28 @@ GOGCCFLAGS="-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmess
 build295842250=/tmp/go-build -gno-record-gcc-switches"                                                             
 ```
 
+### 4. 时区设置
+在centos7中，引入了一个叫`timedatectl`的设置程序.
+```
+# 查看系统时间方面的各种状态
+timedatectl status 
 
-参考来源
----
-[《Go语言开发环境配置》](https://github.com/astaxie/go-best-practice/blob/master/ebook/zh/01.0.md)
+# 列出所有时区
+timedatectl list-timezones 
+
+# 将硬件时钟调整为与本地时钟一致, 0 为设置为 UTC 时间
+timedatectl set-local-rtc 1 
+
+# 设置系统时区为上海
+timedatectl set-timezone Asia/Shanghai 
+
+```
+
+其实不考虑各个发行版的差异化, 从更底层出发的话, 修改时间时区比想象中要简单:
+```bash
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+```
+
+
+
+
