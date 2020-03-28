@@ -115,6 +115,24 @@ timedatectl set-timezone Asia/Shanghai
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
 
+### 5. 安装NodeJS
+* 下载
+```
+wget https://nodejs.org/dist/v10.13.0/node-v10.13.0-linux-x64.tar.xz
+```
+
+* 解压
+```
+xz -d node-v10.13.0-linux-x64.tar.xz
+
+tar -xf node-v10.13.0-linux-x64.tar
+```
+
+* 设置软链接
+```
+ln -s ~/node-v10.13.0-linux-x64/bin/node /usr/bin/node
+ln -s ~/node-v10.13.0-linux-x64/bin/npm /usr/bin/npm
+```
 
 
 
