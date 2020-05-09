@@ -6,3 +6,12 @@ for _, v := range arr {
 }
 ```
 每次遍历的v都是对同一个变量的遍历赋值，也就是说，如果直接对v取地址，最终得到的始终时同一个地址，而对应的值则是最后赋给v的值。
+
+### 2. 在windows中编译Linux的可执行文件  
+```bash
+SET CGO_ENABLED=0 
+SET GOOS=linux 
+SET GOARCH=amd64 
+go build  test.go
+```
+注意：只能使用cmd。
