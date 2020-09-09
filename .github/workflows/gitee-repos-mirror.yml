@@ -18,7 +18,7 @@ jobs:
         uses: Yikun/hub-mirror-action@master
         with:
           src: github/cuizw911
-          dst: gitee/Shangri-la
+          dst: gitee/Shangri-la/Sync_github_repo
           dst_key: ${{ secrets.SYNC_REPO_TO_GITEE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
-          white_list: "Cui-Repo"
+          static_list: "Cui-Repo"
