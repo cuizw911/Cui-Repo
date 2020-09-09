@@ -15,7 +15,11 @@
 
 ## Go
 - [Go知识总结](https://github.com/cuizw911/Cui-Repo/tree/master/doc/go_summary)
-- Gin框架 [go-gin-example](https://github.com/eddycjy/go-gin-example)
+
+#### 相关文档
+- [Gin框架示例](https://github.com/eddycjy/go-gin-example)
+- [Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/)
+- [Go语言圣经](https://books.studygolang.com/gopl-zh/)
 
 <br>
 
