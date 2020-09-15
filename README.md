@@ -35,6 +35,9 @@ Git is a free and open source distributed version control system designed to han
 
 ## Nodejs
 
+- [npm安装教程](https://www.cnblogs.com/lgx5/p/10732016.html)
+- [npm更换成淘宝镜像源以及cnpm](https://www.cnblogs.com/onew/p/11330439.html)
+
 <br>
 
 ## Vagrant
