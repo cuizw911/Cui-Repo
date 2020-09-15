@@ -26,3 +26,19 @@ go build  test.go
 ### 3.Go之`select`
 
 如果多个case同时就绪时，select会随机地选择一个执行，这样来保证每一个channel都有平等的被select的机会。
+
+
+### 4.go build参数
+``` 
+禁用编译器优化和内联优化
+go build -gcflags="-N -I"
+```
+
+### 5. go test
+```
+go test 默认执行当前目录下以xxx_test.go的测试文件。
+go test -v 可以看到详细的输出信息。
+go test -v xxx_test.go 指定测试单个文件，但是该文件中如果调用了其它文件中的模块会报错。
+go test -v xxx_test.go Testxxx   指定某个测试函数运行
+go test -cover ./... 测试覆盖率
+```
