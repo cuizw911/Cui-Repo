@@ -16,6 +16,7 @@
 
 ## Go
 - [Go知识总结](https://github.com/cuizw911/Cui-Repo/tree/master/doc/go_summary)
+- [golang高性能日志库zap配置示例](https://studygolang.com/articles/17394)
 
 #### 相关文档
 - [Gin框架示例](https://github.com/eddycjy/go-gin-example)
