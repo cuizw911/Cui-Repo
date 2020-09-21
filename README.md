@@ -27,6 +27,7 @@
 
 #### 技术扩展
 - [在 iOS 和 Android 平台运行 Go 代码](https://rogchap.com/2020/09/14/running-go-code-on-ios-and-android/)
+- [Golang 使用 Chromedp 绕过反爬抓取微信公众号文章](https://gocn.vip/topics/10991)
 
 <br>
 
