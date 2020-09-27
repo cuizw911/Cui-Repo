@@ -18,6 +18,10 @@
 - [Go知识总结](https://github.com/cuizw911/Cui-Repo/tree/master/doc/go_summary)
 - [golang高性能日志库zap配置示例](https://studygolang.com/articles/17394)
 
+#### 工具库
+- [Go 语言 Excel 文档基础库](https://xuri.me/excelize/zh-hans/)
+
+
 #### 相关文档
 - [Gin框架示例](https://github.com/eddycjy/go-gin-example)
 - [Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/)
