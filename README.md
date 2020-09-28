@@ -25,6 +25,7 @@
 #### 相关文档
 - [Gin框架示例](https://github.com/eddycjy/go-gin-example)
 - [Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/)
+- [Go 编程语言规范【译】](https://hao.studygolang.com/golang_spec.html#id221)
 - [《Go语言圣经》](https://books.studygolang.com/gopl-zh/)
 - [《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book/blob/master/SUMMARY.md)
 - [《Go 语言设计与实现》](https://draveness.me/golang/)
