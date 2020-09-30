@@ -36,6 +36,7 @@
 - [高频golang面试题：简单聊聊内存逃逸？](https://segmentfault.com/a/1190000024537780)
 - [漏桶、令牌桶限流算法的Go语言实现](https://mp.weixin.qq.com/s/T_LvVfAOzgANO1XSCViJrw)
 - [Go设计模式13-观察者模式(实现简单的EventBus)](https://lailin.xyz/post/observer.html)
+- [Golang 函数式编程简述](https://juejin.im/post/6877505132620333064)
 
 <br>
 
