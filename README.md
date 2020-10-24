@@ -15,7 +15,7 @@
 <br>
 
 ## Go
-- [Go知识总结](https://github.com/cuizw911/Cui-Repo/tree/master/doc/go_summary)
+- [Go知识总结](https://github.com/cuizw911/Cui-Repo/tree/master/doc/go/go_knowledge_summary.md)
 - [golang高性能日志库zap配置示例](https://studygolang.com/articles/17394)
 
 #### 工具库
@@ -45,7 +45,7 @@
 ## Git
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-- [Git用法总结](https://github.com/cuizw911/Cui-Repo/tree/master/doc/git_summary)
+- [Git用法总结](https://github.com/cuizw911/Cui-Repo/tree/master/doc/git/git_operation_summary.md)
 
 <br>
 
@@ -58,7 +58,7 @@ Git is a free and open source distributed version control system designed to han
 
 ## Vagrant
 
-- [在Vagrant中配置centos7环境](https://github.com/cuizw911/Cui-Repo/tree/master/doc/vagrant)
+- [在Vagrant中配置centos7环境](https://github.com/cuizw911/Cui-Repo/tree/master/doc/vagrant/vagrant_configuration.md)
 
 <br>
 <br>
