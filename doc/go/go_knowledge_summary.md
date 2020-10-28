@@ -63,3 +63,17 @@ $ protoc -I=proto --go_out=plugins=grpc:./go/ ./proto/helleworld.proto
 1) 利用bee工具打包成exe可执行文件。命令：bee pack -be GOOS=windows
 
 2) 利用[nssm](https://www.cnblogs.com/TianFang/p/7912648.html)工具将exe打包成windows服务，然后启动服务即可。
+
+### 8.复用http.request.Body
+```go
+// 定义变量读出request.body中的数据
+var bodyBytes []byte
+bodyBytes, _ = ioutil.ReadAll(c.Request.Body)
+// 再将读出的数据写入request.body
+c.Request.Body = ioutil.NopCloser(bytes.NewBuffer(bodyBytes))
+```
+
+NopCloser returns a ReadCloser with a no-op Close method wrapping the provided Reader r.
+NopCloser用一个无操作的Close方法包装Reader r返回一个ReadCloser接口。
+https://golang.org/pkg/io/ioutil/#NopCloser
+
