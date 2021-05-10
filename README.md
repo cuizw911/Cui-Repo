@@ -40,6 +40,7 @@
 - [Golang 函数式编程简述](https://juejin.im/post/6877505132620333064)
 - [流数据处理利器](https://gocn.vip/topics/11077)
 - [如何基于Golang设计一套微服务架构](https://mp.weixin.qq.com/s?src=11&timestamp=1602665740&ver=2643&signature=uZNvhA7f0wGOoaqs6X98epzT4yte*Hk7KbFgFD-eja3ZOVy91QY0xsyX9-Kd9YH59mUFDF0NooZk4e-tah732nPmqZn-0obMvzi-*e2uvTubF-2GI0RBoEj43VwTAtNU&new=1)
+- [Go实现各类限流](https://juejin.cn/post/6959436201443426311)
 
 <br>
 
