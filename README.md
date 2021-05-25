@@ -21,6 +21,7 @@
 #### 工具库
 - [Go 语言 Excel 文档基础库](https://xuri.me/excelize/zh-hans/)
 - [cobra包简介](https://www.cnblogs.com/sparkdev/p/10856077.html)
+- [Go中执行JavaScript脚本](https://github.com/robertkrimen/otto)
 
 
 #### 相关文档
