@@ -30,7 +30,8 @@
 - [Go 编程语言规范【译】](https://hao.studygolang.com/golang_spec.html#id221)
 - [《Go语言圣经》](https://books.studygolang.com/gopl-zh/)
 - [《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book/blob/master/SUMMARY.md)
-- [《Go 语言设计与实现》](https://draveness.me/golang/)
+- [《Go语言设计与实现》](https://draveness.me/golang/)
+- [《Go语言原本》](https://golang.design/under-the-hood/)
 
 #### 技术扩展
 - [在 iOS 和 Android 平台运行 Go 代码](https://rogchap.com/2020/09/14/running-go-code-on-ios-and-android/)
